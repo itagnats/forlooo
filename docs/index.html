@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Loo!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Kanit", sans-serif;
+        background: linear-gradient(#0b0c2a, #2f2149);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+      }
+      .witchpenguin {
+        max-width: 300px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+        animation: wiggleSpin 2s infinite ease-in-out;
+      }
+      @keyframes wiggleSpin {
+        0% {
+          transform: rotate(0deg) translateX(0);
+        }
+        20% {
+          transform: rotate(2deg) translateX(-5px);
+        }
+        40% {
+          transform: rotate(-2deg) translateX(5px);
+        }
+        60% {
+          transform: rotate(3deg) translateX(-4px);
+        }
+        80% {
+          transform: rotate(-3deg) translateX(4px);
+        }
+        100% {
+          transform: rotate(0deg) translateX(0);
+        }
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        color: #ff94e2;
+      }
+      p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 1rem 0;
+        line-height: 1.6;
+      }
+      .cake {
+        font-size: 3rem;
+        margin: 1rem 0;
+        animation: floatCake 2.5s ease-in-out infinite;
+      }
+      .spooky-kitten {
+        font-size: 1.1rem;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 0.8rem 1.5rem;
+        border-radius: 15px;
+        margin-top: 2rem;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      }
+
+      @keyframes floatCake {
+        0% {
+          transform: translateX(40px);
+        }
+        50% {
+          transform: translateX(-40px);
+        }
+        100% {
+          transform: translateX(40px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="witchpenguin"
+      src="./ita-witchfeather.png"
+      alt="Ita Witchfeather and Loo’s Spooky Kitten sharing cake"
+    />
+    <h1>Happy Birthday, Spooky Kitten</h1>
+    <p>
+      On this haunted and magical day, <br /><strong>Ita Witchfeather</strong>
+      has flown under the full moon to send you a very special delivery...
+    </p>
+    <div class="cake">🖤🎂🖤</div>
+    <p>
+      A cake conjured with a bit of love, a lot of chaos, and a suspicious
+      amount of black broccoli. It might be cursed. It might be sweet. Only You
+      may know 👀
+    </p>
+    <div class="spooky-kitten">
+      From the bottom of my undead little penguin heart, I am wishing you the
+      cutest, funniest, weirdest, most magical Birthday ever, kitten 🖤🐾✨<br />
+      <em>— Ita Witchfeather</em>
+    </div>
+  </body>
+</html>
